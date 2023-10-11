@@ -1,0 +1,56 @@
+body {
+		margin: auto, max width 600px;
+}
+
+h1 {
+		color: #d12424;
+		text-align: center;
+		font: arial;
+}	
+
+h3 {
+		text-align: center;
+}
+
+img {
+		position: middle;	
+}	
+
+div	{
+		background-color: #9f9fdf;
+}
+
+.fancy {
+		font-family: monospace;
+		color: #e231b6;
+}
+
+aside {
+		background-color: red;
+}
+* {
+	font-size: 20px;
+}
+.linkit {
+			color: #e231b6;
+}
+nav {
+		text-align: right;
+		border: 3px;
+}
+aside {
+		align: right;
+}
+figure {
+		box-align: center;
+}
+
+
+
+
+
+
+
+
+
+
