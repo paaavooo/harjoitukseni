@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-		color: #d12424;
+		color: hwb(0 0% 100%);
 		text-align: center;
 		font: arial;
 }	
@@ -35,7 +35,7 @@ aside {
 			color: #e231b6;
 }
 nav {
-		text-align: right;
+		text-align: center;
 		border: 3px;
 }
 aside {
