@@ -219,6 +219,7 @@ header h1 {
         page-break-after: avoid;
     }
 }
+
 figcaption {
     position:absolute;
     top: 0px;
