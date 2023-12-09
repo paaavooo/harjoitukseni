@@ -15,7 +15,7 @@
 html { 
 	/*koko sivun tausta on valkoinen.
 	Muuta haluamaksesi*/
-	background: rgb(82, 78, 78); 
+	 
 
 	/*Jos määrität html-tagissa fontteja, 
 	taustavärejä tai tekstin värejä,
@@ -23,7 +23,12 @@ html {
 	elementteihin. Näin voit määrittää esim. koko sivun 
 	fontit, värit ym. ja sitten muuttaa haluamissasi
 	elementeissä tyylin toiseksi.*/
-
+	background-image: url("https://cdn.pixabay.com/photo/2017/12/25/16/16/creativity-3038628_960_720.jpg");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
 }
 
@@ -37,10 +42,11 @@ body {
 	/*Tällä koodilla voit tehdä niin, että yli 900px
 	leveässä näytössä body-tagi jää vain 900px leveäksi,
 	ja reunoille jää tyhjää. Voit muuttaa tätä miten haluat.*/
-	max-width: 1000px;
+	max-width: 60%;
 	margin: auto; /*tämä keskittää body-tagin sivusuunnassa*/
-	padding: 20px;
+	padding: 10px;
 	color: rgb(195, 185, 230);
+	background-color: rgb(95,95,95);
 }
 
 /*--------- HEADER ---------------------*/
@@ -204,6 +210,9 @@ article {
 	background-color: rgb(54,54,54);
 	margin: 40px;
 	padding: 30px;
+	border-style: double; border-color: black;
+	border-radius: 10px;
+
 }
 
 article:hover{
