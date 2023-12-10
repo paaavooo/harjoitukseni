@@ -1,133 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, intital-scale=1.0">
-		<title>Bootstrap</title>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    <header class="p-3 bg-dark text-white">
-      <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-          </a>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous">
+</head>
+
+<body class="bg-gray">
   
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 text-secondary">Koti</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">Pelit</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">Ajan Käyttö</a></li>
-          </ul>
-  
-          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-            <input type="search" class="form-control form-control-dark" placeholder="Etsi Sivulta..." aria-label="Search">
-          </form>
-  
-          <div class="text-end">
-            <button type="button" class="btn btn-outline-light me-2">Nappula</button>
-            <button type="button" class="btn btn-warning">Toinen Nappula</button>
-          </div>
+  <header class="p-3 bg-dark text-white fixed-top">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-secondary">Koti</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Pelit</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Ajan Käyttö</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control form-control-dark" placeholder="Etsi Sivulta..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Nappula</button>
+          <button type="button" class="btn btn-warning">Toinen Nappula</button>
         </div>
       </div>
-    </header>
-    
+    </div>
+  </header>
+
+  
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1>Pelejä Joita Pelaan</h1>
+          <h1 class="title">Pelejä Joita Pelaan</h1>
+      </div>
+    </div>
+  
+
+    <div class="row">
+      <div class="col-lg-6 pd-3">
+        <div class="card h-100 border border-dark border-3" style="background-image: url(https://www.cnet.com/a/img/resize/ac6603a14a4b7de76a603f9ec54cafc8bcd9a18c/hub/2022/02/23/dbc979d5-4fd1-4bc0-8fdf-c938403b134a/elden-ring-30.jpg?auto=webp&fit=crop&height=1200&width=1200);background-size: cover; background-position: center;">
+          <div class="card-body">
+            <h2 class="eldentitle">Elden Ring</h2>
+            <p class="elden">Eräs mieluisimmista peli genreistä on souls-pelit. Fromsoftware kehittää aina uusia mestariteoksia ja odotan innolla uusia julkaisuja heiltä. Viimeisin heidän pelinsä on Elden Ring johon olen tuhlannut monia tunteja ja pidän sitä mestariteoksena.<br>Elden Ring on erittäin vaikea, sillä se sisältää ylitsepääsemättömiä boss fighteja, järkyttävän määrän erilaisia mekaanikoita joita pelaajan täytyisi ymmärtää, suunnattoman suuren interaktiivisen maailman joka on täytetty päästä varpaisiin yhä vaikeimmilla vihollisilla ja muilla vaaroilla.<br>En ole varma itsekkään miksi pidän tämän tyyppisistä vaikeista peleistä niin paljon, mutta ehkä se kutittaa jotain masokista puoltani missä haluan viettää tunti tolkulla tehden samaa asiaa uudelleen ja uudelleen kunnes vihdoin pääsen esteen yli.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 pd-3">
+        <div class="card h-100 border border-dark border-3" style="background-image: url(https://images.cdn.yle.fi/image/upload/ar_1.7777777777777777,c_fill,g_faces,h_675,w_1200/dpr_2.625/q_auto:eco/f_auto/fl_lossy/13-3-10477783);background-size: cover; background-position: center;">
+          <div class="card-body">
+            <h2 class="rdtitle">Red Dead Redemption 2</h2>
+            <p class="rd">Viimeisin pelaamani peli oli Red Dead Redemption 2, jota olin pitkään ajatellut pelaavani, mutten koskaan saanut tarpeeksi motivaatiota aloittamaan sitä. Vihdoin kuin sain itseni raahattua aloittamaan tämän olin hämmästynyt kuinka realistinen maailma oikeasti oli. Olen aina pitänyt yksin pelattavista peleistä enemmän kuin multiplayer painotteisita, sillä nautin eri tarinoista.<br>Peli ei pettänyt tässä aspektissa ja mielestäni pelattava hahmo Arthur Morgan on parhaiten kirjoitettu pelin päähahmo mitä olen tähän mennessä nähnyt. Pidin paljon pelin mekaanikoista kuten dead eye, jossa ajan voi hidastaa ja tällöin voi merkata viholliset punaisella X-merkillä jonka jälkeen yksikään vihollinen ei enää ole</p>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-lg-6">
-        <h2>testi</h2>
+      <div class="col-lg-4 pt-3">
+        <div class="card h-100 border border-dark border-3">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium officia qui odio! Libero voluptatum officia doloremque reiciendis dolorum est repellendus aut esse quia provident, ipsam vero, aliquam atque mollitia accusamus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus voluptatem, labore exercitationem repellat rem vel distinctio? Quia praesentium impedit atque. Aspernatur pariatur temporibus voluptates culpa labore beatae eaque unde eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ex eos sunt quis quod, explicabo pariatur architecto ad esse illo aspernatur, saepe odio. Repudiandae ipsa sit dolores labore autem reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nostrum sapiente commodi quas, unde debitis sequi voluptates eius. Incidunt dicta sed illum modi corrupti excepturi alias minima asperiores quas doloremque.</p>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-6">
-        <h2>testi</h2>
+      <div class="col-lg-8 pt-3">
+        <div class="card h-100 border border-dark border-3">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium officia qui odio! Libero voluptatum officia doloremque reiciendis dolorum est repellendus aut esse quia provident, ipsam vero, aliquam atque mollitia accusamus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus voluptatem, labore exercitationem repellat rem vel distinctio? Quia praesentium impedit atque. Aspernatur pariatur temporibus voluptates culpa labore beatae eaque unde eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ex eos sunt quis quod, explicabo pariatur architecto ad esse illo aspernatur, saepe odio. Repudiandae ipsa sit dolores labore autem reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nostrum sapiente commodi quas, unde debitis sequi voluptates eius. Incidunt dicta sed illum modi corrupti excepturi alias minima asperiores quas doloremque.</p>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-lg-4">
-        <p>jebulis</p>
+      <div class="col-lg-3 pt-3">
+        <div class="card h-100 border border-dark border-3">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium officia qui odio! Libero voluptatum officia doloremque reiciendis dolorum est repellendus aut esse quia provident, ipsam vero, aliquam atque mollitia accusamus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus voluptatem, labore exercitationem repellat rem vel distinctio? Quia praesentium impedit atque. Aspernatur pariatur temporibus voluptates culpa labore beatae eaque unde eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ex eos sunt quis quod, explicabo pariatur architecto ad esse illo aspernatur, saepe odio. Repudiandae ipsa sit dolores labore autem reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nostrum sapiente commodi quas, unde debitis sequi voluptates eius. Incidunt dicta sed illum modi corrupti excepturi alias minima asperiores quas doloremque.</p>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-8">
-        <p>jabulis</p>
+      <div class="col-lg-3 pt-3">
+        <div class="card h-100 border border-dark border-3">
+          <div class="card-body">
+            <p class="card-text">Laatikko 2</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 pt-3">
+        <div class="card h-100 border border-dark border-3">
+          <div class="card-body">
+            <p class="card-text">Laatikko 3</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 pt-3">
+        <div class="card h-100 border border-dark border-3">
+          <div class="card-body">
+            <p class="card-text">Laatikko 4</p>
+          </div>
+        </div>
       </div>
     </div>
-    
-    <div class="row">
-      <div class="col-lg-3">
-        <p>laatikko 1</p>
-      </div>
-      <div class="col-lg-3">
-        <p>laatikko 2</p>
-      </div>
-      <div class="col-lg-3">
-        <p>laatikko 3</p>
-      </div>
-      <div class="col-lg-3">
-        <p>laatikko 4</p>
-      </div>
-    </div>
+  </div>
 
-   
-   
-    <footer class="footer mt-auto py-3 bg-light">
-      <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://images.cdn.yle.fi/image/upload/ar_1.7777777777777777,c_fill,g_faces,h_675,w_1200/dpr_2.625/q_auto:eco/f_auto/fl_lossy/13-3-10727691" alt="First slide">
       </div>
-    </footer>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-  </body>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="..." alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="..." alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-1 py-md-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 mb-4 mb-md-0">
+          <h5 class="text-uppercase fs-6 fs-md-5">Bootstrapin Hyödyt</h5>
+          <p>Bootstrapista on hyötyä monessa eri tilanteessa, kuten esimerkiksi: Koodaamisen helpottamisessa,<br>responsiivisuuden tuottamisessa sekä<br>tyylikkyyden luomisessa.</p>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h5 class="text-uppercase fs-6 fs-md-5">Bootsrapin Haitat</h5>
+          <p>Bootsrapin käyttö ei kuitenkaan aina ole järkevää sillä siitä saattaa olla seuraavia haittoja:<br>Ilman omaa CSS:sää saattavat Bs sivut näyttää yhtenäisiltä muiden kanssa, Bs sivut tarvitesvat päivittämistä<br>sekä koodin määrästä riippuen voivat sivut ladata hitaasti.</p>
+        </div>
+        <div class="col-12 col-md-4 mb-4 mb-md-0">
+          <h5 class="text-uppercase fs-6 fs-md-5">Bootsrapin Käyttö</h5>
+          <p>Omasta mielestäni on Bootsrapin käyttö hieman hankalaa ja hämmentävää, mutta tarpeaksi suurella yrityksellä uskon, että sen käyttö helpoittaisi koodin tuottamista.</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
 
 </html>
