@@ -1,11 +1,20 @@
-.title {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+@media screen and (max-width: 800px) {
+  main, aside
+  {width: 100%;
+  
+  }
 }
 
-.text {
+.title, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+
+.text, p {
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 li, a {
@@ -43,6 +52,7 @@ header {
   align-items: center;
   padding: 30px 10%;
   background-color: rgb(97, 87, 87);
+  background-image: url(https://i.pinimg.com/originals/7f/07/f4/7f07f46ea498cd349c4dfacc6af61f30.jpg);
   margin: 0;
   flex-wrap: wrap;
 }
@@ -111,12 +121,16 @@ body {
   background-color: rgb(124, 88, 88);
 }
 
+html {
+  background-image: url(https://media.istockphoto.com/id/504986070/photo/imitation-leather-black-pvc-or-background.webp?b=1&s=170667a&w=0&k=20&c=8goWOroHINQOXLndbiGLYg9HCfBn4vD80VxGmZbxnS4=);
+}
+
 h4 {
   color: white;
 }
 
 footer {
-  background-color: #333;
+  background-image: url(https://i.pinimg.com/originals/7f/07/f4/7f07f46ea498cd349c4dfacc6af61f30.jpg);
   color: #fff;
   padding: 20px 0;
 }
@@ -127,13 +141,14 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 200px;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: auto;
 }
 
 .footer-links ul {
@@ -148,4 +163,116 @@ footer {
 
 .footer-info {
   text-align: right;
+  margin-left: auto;
+}
+
+aside {
+  z-index: 0;
+  background-color: rgb(168, 139, 105);
+  width: 50%;
+  max-height: 300px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+  display: flex;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.2s
+}
+
+aside ul {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  list-style: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside:hover{
+  transform: scale(1.02);
+}
+
+aside h4 {
+  color: black;
+  text-align: center;
+  padding-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gif1 {
+  width: 100%;
+  height: 550px;
+  display: flex;
+}
+
+.image-column1 {
+  border: solid;
+  box-shadow: 5px 5px 5px rgba(0,0,0,50%);
+  width: fit-content;
+}
+
+.image-column2 {
+  border: solid;
+  box-shadow: 5px 5px 5px rgba(0,0,0,50%);
+  width: fit-content;
+}
+
+.image-column3 {
+  border: solid;
+  box-shadow: 5px 5px 5px rgba(0,0,0,50%);
+  width: fit-content;
+}
+
+.image-column4 {
+  border: solid;
+  box-shadow: 5px 5px 5px rgba(0,0,0,50%);
+  width: fit-content;
+}
+
+.image-column5 {
+  border: solid;
+  box-shadow: 5px 5px 5px rgba(0,0,0,50%);
+  width: fit-content;
+}
+
+.image-column6 {
+  border: solid;
+  box-shadow: 5px 5px 5px rgba(0,0,0,50%);
+  width: fit-content;
+}
+
+article {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.text-column {
+  width: 60%;
+  padding: 25px;
+}
+
+.figure-column {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.footertext {
+  color: white;
+  font-size: 14px;
+}
+
+.art-titles {
+  text-align: center;
 }
