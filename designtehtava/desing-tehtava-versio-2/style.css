@@ -239,15 +239,6 @@ article h2 {
 	color: rgb(240,235,100);
 }
 
-/*article text*/
-article p { 
-	/*Artikkelin pienempi teksti*/
-
-	/*Saatat haluta muokata täällä 
-	background-, color-, margin- ja padding-
-	font-size- ja font-family-arvoja.*/
-
-}
 
 /* "Images" */
 .article-image { 
